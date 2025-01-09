@@ -1,23 +1,65 @@
-title:              Jigar Parekh
-email:              jigar.parekh.ds@gmail.com
-description:        PORTFOLIO
-author:             Jigar Parekh
-baseurl:            ""
-url:                "https://jigarparekh279.github.io"
+# Site settings
+title: Francisco J. Carrillo
+email: Franjcf@outlook.com
+url: https://franjcf.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+keywords: "your keywords, separated by commas"
+skills: "Doctor of Engineering - Machine Learning - Data Analysis - Programming"
+meta_author: Carrillo Francisco
 
-# Social Profiles
-twitter_username:
-github_username:    jigarparekh279
-facebook_username:
-instagram_username:
-linkedin_username:  jigarparekh279
+# Google webmaster tools
+google_verify:
 
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 04071F #BEBFC4  #18bc9c #80B3FF
+  primary-rgb: "122,129,191" #"24,288,156" #"128,179,255"
+  secondary: 04071F #183C28 #FD6E8A
+  secondary-dark: 959595 #4F4F4F #0B0739 #00108B #080F46 #10281B  #233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Francisco J. Carrillo
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/francisco-jose-carrillo
+  - title: github
+    url: https://github.com/Franjcf
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 6805 Smokey Hill Rd
+  - line: Austin, TX, 78736
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
