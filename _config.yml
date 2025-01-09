@@ -45,9 +45,9 @@ social:
     url: https://github.com/jigarparekh279
 
 # Postal address (add as many lines as necessary)
-address:
+# address:
   # - line: 6805 Smokey Hill Rd
-  - line: Braunschweig 38106, Germany
+  # - line: Braunschweig 38106, Germany
 
 # Credits content
 # credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
